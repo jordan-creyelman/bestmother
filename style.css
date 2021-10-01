@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Open Sans,Arial;
+    font-size: 16px;
+    color: #454545;
+}
+.contenue{
+    margin-left: 600px;
+    width: 40%;
+}
+.change{
+    background-color: #ffff;
+    display: block;
+}
+.change_color{
+    background-color: black;
+    color: cornsilk;
+    content:"normal mode"
+
+}
+.navigation li{
+    list-style-type: none;
+
+}
+.constrast{
+    margin-left: 96.8%;
+
+}
+.inverted-mode{
+    margin-left: 95.1%;
+    background-color: black;
+    color: cornsilk;
+}
+.colors{
+    color: black;
+    animation-duration:1s;
+    animation-name: glow;
+    animation-iteration-count: infinite;
+}
+@keyframes glow {
+    from{
+        color: blue;
+      }
+    to{
+        color: red;
+      }
+  }
+.chat{
+    width: 40%;
+}
+.test{
+    float: left;
+}
